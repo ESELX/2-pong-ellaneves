@@ -37,7 +37,7 @@ function draw() { //código que corre em loop
  fill (255,255,255);
  rect (mouseX,height-10, padWidth, padHeight);
 
-
+//Condições
  if (posX-diamBall/2 <= 0 || posX+diamBall/2 >= width ) { //menor ou igual  a 0 // maior ou igual // barinhas = ou
  velX = velX*-1; //* dividir menos 1 // muda o sinal da velocidade
  }
